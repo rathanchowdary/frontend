@@ -1,0 +1,57 @@
+.song-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  max-height: 100vh;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.download {
+  color: #24b0f1;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.download:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.song-img {
+  align-self: center;
+  width: 30vw;
+  height: 50vh;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.song-text {
+  margin-left: 10px;
+}
+
+.song-name {
+  text-align: center;
+  font-style: italic;
+}
+
+.player {
+  width: 100vw;
+}
+
+.rhap_container {
+  background-color: #383636;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.rhap_container svg {
+  color: #ffffff;
+}
+
+.rhap_time {
+  color: #ffffff;
+}

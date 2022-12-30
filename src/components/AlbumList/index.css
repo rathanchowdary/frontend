@@ -1,0 +1,44 @@
+.li-items {
+  background-color: #ded9da;
+  width: 24%;
+  height: 20vh;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.li-link {
+  background-color: transparent;
+  width: 24vw;
+  height: 20vh;
+  display: flex;
+  border-radius: 10px;
+}
+
+.thumbnail {
+  width: 40%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.li-text {
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #000000;
+}
+
+.movie-name {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.language {
+  color: #cc3340;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
